@@ -1,0 +1,12 @@
+html {
+    background-color: lightblue;
+}
+
+.meta {
+    width: 300px;
+    margin: 75px auto;
+}
+
+input {
+    margin-left: 10px;
+}

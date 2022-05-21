@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> first</title>
+    <link rel="stylesheet" href="./first.css">
+    <script>
+        function pageJump() {
+            window.location.assign("../home/home.html");
+        }
+    </script>
+</head>
+
+<body>
+    <div class="meta">
+        <fieldset>
+            注册界面<br><br>
+            <form action="http://localhost/vscoderopes/ropes/VolunteerManagerSystem/volunteermanagementsystem/1.json"
+                method="post" name="form1" onsubmit="pageJump()">
+                <label>姓名:<input type="text" name="name"></label><br><br>
+                <label>年龄:<input type="text" name="age"></label><br><br>
+                性别<input type="radio" name="sex" value="boy">男
+                <input type="radio" name="sex" value="girl">女
+                <br><br>
+                <label>联系电话：<input type="text" name="contact_number"></label><br><br>
+                <label>身份证号:<input type="text" name="social_security_number"></label><br><br>
+                <label>单位信息:<input type="text" name="unit_information"></label><br><br>
+                <label>掌握外语:<input type="text" name="mastery_of_foreign_languages"></label><br><br>
+                <label>掌握情况:<input type="text" name="foreign_language_mastery"></label><br><br>
+                是否担任过志愿者<input type="radio" name="is_volunteered" value="yes">是
+                <input type="radio" name="is_volunteered" value="no">否
+                <br><br>
+                志愿时间:<br>
+                <label>日期:<input type="text" name="volunteer_time"></label><br>
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="submit" value="注册">
+            </form>
+        </fieldset>
+    </div>
+</body>
+
+</html>
